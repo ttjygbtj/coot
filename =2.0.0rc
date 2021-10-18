@@ -1,0 +1,80 @@
+Collecting paddlenlp
+  Downloading paddlenlp-2.1.0-py3-none-any.whl (742 kB)
+Collecting h5py
+  Using cached h5py-3.4.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (4.1 MB)
+Collecting colorlog
+  Downloading colorlog-6.5.0-py2.py3-none-any.whl (11 kB)
+Collecting seqeval
+  Downloading seqeval-1.2.2.tar.gz (43 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting jieba
+  Downloading jieba-0.42.1.tar.gz (19.2 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting multiprocess
+  Downloading multiprocess-0.70.12.2-py37-none-any.whl (112 kB)
+Collecting paddlefsl==1.0.0
+  Downloading paddlefsl-1.0.0-py3-none-any.whl (55 kB)
+Collecting tqdm~=4.27.0
+  Downloading tqdm-4.27.0-py2.py3-none-any.whl (44 kB)
+Collecting pillow==8.2.0
+  Downloading Pillow-8.2.0-cp37-cp37m-manylinux1_x86_64.whl (3.0 MB)
+Collecting requests~=2.24.0
+  Downloading requests-2.24.0-py2.py3-none-any.whl (61 kB)
+Collecting numpy~=1.19.2
+  Downloading numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+Requirement already satisfied: cached-property in /home/lc/anaconda3/envs/pd/lib/python3.7/site-packages (from h5py->paddlenlp) (1.5.2)
+Collecting dill>=0.3.4
+  Downloading dill-0.3.4-py2.py3-none-any.whl (86 kB)
+Collecting scikit-learn>=0.21.3
+  Downloading scikit_learn-1.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (23.1 MB)
+Collecting chardet<4,>=3.0.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Downloading urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lc/anaconda3/envs/pd/lib/python3.7/site-packages (from requests~=2.24.0->paddlefsl==1.0.0->paddlenlp) (2021.10.8)
+Requirement already satisfied: idna<3,>=2.5 in /home/lc/anaconda3/envs/pd/lib/python3.7/site-packages (from requests~=2.24.0->paddlefsl==1.0.0->paddlenlp) (2.10)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.0.0-py3-none-any.whl (14 kB)
+Collecting scipy>=1.1.0
+  Downloading scipy-1.7.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (28.5 MB)
+Requirement already satisfied: joblib>=0.11 in /home/lc/anaconda3/envs/pd/lib/python3.7/site-packages (from scikit-learn>=0.21.3->seqeval->paddlenlp) (1.1.0)
+Building wheels for collected packages: jieba, seqeval
+  Building wheel for jieba (setup.py): started
+  Building wheel for jieba (setup.py): finished with status 'done'
+  Created wheel for jieba: filename=jieba-0.42.1-py3-none-any.whl size=19314476 sha256=d3cc763f0d26131c316292574d52be12d6610c0992d7082ed9b84de9a4b7ecf2
+  Stored in directory: /home/lc/.cache/pip/wheels/24/aa/17/5bc7c72e9a37990a9620cc3aad0acad1564dcff6dbc2359de3
+  Building wheel for seqeval (setup.py): started
+  Building wheel for seqeval (setup.py): finished with status 'done'
+  Created wheel for seqeval: filename=seqeval-1.2.2-py3-none-any.whl size=16181 sha256=7d98e09f3377da816b70fda6580da3e8ebcada6824a51563bfc19cc69f8b20c0
+  Stored in directory: /home/lc/.cache/pip/wheels/05/96/ee/7cac4e74f3b19e3158dce26a20a1c86b3533c43ec72a549fd7
+Successfully built jieba seqeval
+Installing collected packages: numpy, urllib3, threadpoolctl, scipy, chardet, tqdm, scikit-learn, requests, pillow, dill, seqeval, paddlefsl, multiprocess, jieba, h5py, colorlog, colorama, paddlenlp
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.2
+    Uninstalling numpy-1.21.2:
+      Successfully uninstalled numpy-1.21.2
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.26.7
+    Uninstalling urllib3-1.26.7:
+      Successfully uninstalled urllib3-1.26.7
+  Attempting uninstall: chardet
+    Found existing installation: chardet 4.0.0
+    Uninstalling chardet-4.0.0:
+      Successfully uninstalled chardet-4.0.0
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.62.3
+    Uninstalling tqdm-4.62.3:
+      Successfully uninstalled tqdm-4.62.3
+  Attempting uninstall: requests
+    Found existing installation: requests 2.25.1
+    Uninstalling requests-2.25.1:
+      Successfully uninstalled requests-2.25.1
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 8.3.2
+    Uninstalling Pillow-8.3.2:
+      Successfully uninstalled Pillow-8.3.2
+Successfully installed chardet-3.0.4 colorama-0.4.4 colorlog-6.5.0 dill-0.3.4 h5py-3.4.0 jieba-0.42.1 multiprocess-0.70.12.2 numpy-1.19.5 paddlefsl-1.0.0 paddlenlp-2.1.0 pillow-8.2.0 requests-2.24.0 scikit-learn-1.0 scipy-1.7.1 seqeval-1.2.2 threadpoolctl-3.0.0 tqdm-4.27.0 urllib3-1.25.11
